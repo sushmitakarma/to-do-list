@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  font-family: "Rubik";
+}
+
+body{
+  background-image: url("https://img.freepik.com/free-vector/gradient-grainy-texture_23-2148987745.jpg?t=st=1710168432~exp=1710172032~hmac=0cade74e3aa7aae6360c0260a0dd7150103d6594db80683081707574211d5123&w=826");
+  background-size: cover;
+}
+
+#dailyToDo {
+  max-height: 400px;
+  border: 1px solid black;
+  border-radius: 3px;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+#previous {
+  max-height: 400px;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.tasks {
+  padding: 13px;
+}
+
+.tasks:hover {
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+
+#taskname:hover,:focus{
+  border: none;
+  outline: none;
+}
